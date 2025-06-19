@@ -2,7 +2,7 @@ global:
   scrape_interval: 15s
 
 scrape_configs:
-  - job_name: "simple-deploy-railway"
+  - job_name: "staging-alfred-api"
     scheme: "https"
     static_configs:
-      - targets: ["simple-deploy-railway-production.up.railway.app"]
+      - targets: ["staging-alfred-api.up.railway.app"]
